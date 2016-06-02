@@ -1,0 +1,8 @@
+debug: True
+
+mysql:
+  host: localhost
+  port: 3306
+  db: stock_db
+  user: root
+  pwd: root
