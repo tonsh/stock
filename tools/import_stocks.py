@@ -1,6 +1,10 @@
 # coding=utf-8
 
 import datetime
+import os
+import sys
+sys.path.append(os.path.abspath('__file__' + '/..'))
+
 import urllib2
 from sqlalchemy.exc import IntegrityError, InvalidRequestError
 
